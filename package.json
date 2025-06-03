@@ -1,0 +1,27 @@
+{
+  "name": "Super BomberMan",
+  "version": "1.0.0",
+  "main": "./src/App.tsx",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "serve": "vite preview",
+    "https": "vite --https --host"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@galacean/engine-shaderlab": "^1.4.16",
+    "@galacean/engine-shader-shaderlab": "^1.4.16",
+    "@galacean/engine-physics-physx": "^1.4.16",
+    "@galacean/engine": "^1.4.16",
+    "tweenjs": "latest",
+    "@tweenjs/tween.js": "latest",
+    "@galacean/engine-toolkit-auxiliary-lines": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4",
+    "typescript": "^4.3.5"
+  }
+}
